@@ -1,5 +1,5 @@
 ---
-title: "Lab 1"
+title: "Lab 3"
 author: "Alisha Chulani"
 date: "8/27/24"
 categories:
@@ -7,4 +7,4 @@ categories:
 draft: false
 ---
 
-## FPGA and MCU Setup and Testing
+## Keypad Scanner

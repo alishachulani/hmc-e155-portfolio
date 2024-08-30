@@ -10,6 +10,10 @@ about:
         - icon: github
           text: GitHub
           href: https://github.com/alishachulani
+        - icon: calculator
+          text: MicroPs Website
+          href: https://hmc-e155.github.io
+        
 ---
 
 Alisha Chulani is a senior engineering major at Harvey Mudd College interested in electrical engineering, systems engineering, robotics, and hardware/software integration. 
