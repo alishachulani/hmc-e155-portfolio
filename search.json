@@ -4,14 +4,7 @@
     "href": "blog.html",
     "title": "E155 Blog",
     "section": "",
-    "text": "Hello Quarto\n\n\n\n\n\nWelcome to my Quarto portfolio\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "labs.html",
-    "href": "labs.html",
-    "title": "E155 Blog",
-    "section": "",
-    "text": "Lab 1\n\n\n\n\n\nWelcome to my Quarto portfolio\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 2\n\n\n\n\n\nWelcome to my Quarto portfolio\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\nNo matching items"
+    "text": "Hello Quarto\n\n\n\n\n\nWelcome! First Week\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -19,5 +12,19 @@
     "title": "E155 Portfolio",
     "section": "",
     "text": "Alisha Chulani is a senior engineering major at Harvey Mudd College interested in electrical engineering, systems engineering, robotics, and hardware/software integration."
+  },
+  {
+    "objectID": "posts/first-post.html",
+    "href": "posts/first-post.html",
+    "title": "Hello Quarto",
+    "section": "",
+    "text": "Initial Learnings: I learned how to use Quarto to make a webpage this week!"
+  },
+  {
+    "objectID": "labs.html",
+    "href": "labs.html",
+    "title": "E155 Blog",
+    "section": "",
+    "text": "Lab 1\n\n\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 6\n\n\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 7\n\n\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 5\n\n\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 2\n\n\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 3\n\n\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 4\n\n\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\nNo matching items"
   }
 ]
