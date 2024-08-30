@@ -1,0 +1,10 @@
+---
+title: "Hello Quarto"
+description: "Welcome to my Quarto portfolio"
+author: "Alisha Chulani"
+date: "8/27/24"
+categories:
+  - reflection
+  - labreport
+draft: false
+---

@@ -1,0 +1,16 @@
+---
+title: "E155 Portfolio"
+image: images/headshot.jpg
+about:
+    template: jolla
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          href: https://www.linkedin.com/in/alishachulani30/
+        - icon: github
+          text: GitHub
+          href: https://github.com/alishachulani
+---
+
+Alisha Chulani is a senior engineering major at Harvey Mudd College interested in electrical engineering, systems engineering, robotics, and hardware/software integration. 
+
