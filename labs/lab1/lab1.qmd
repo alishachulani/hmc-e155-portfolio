@@ -8,3 +8,15 @@ draft: false
 ---
 
 ## FPGA and MCU Setup and Testing
+
+The goals of this lab were to fully solder and set up our boards for the rest of the semester, and test that everything was working correctly. First, I soldered surface mount pieces, then the through hole technology to the PCB before testing that everything powered correctly. Then, I tested the LEDs and connections through a simple blinking program. Finally, I programmed a 7-segment display to display digits 0-F. 
+
+For this report, I will focus on the 7-segment display as the main design goal. 
+
+To design the 7-bit display, I first looked at the datasheets to get acquainted with the 7-bit display we were provided with. I needed to get acquainted with the hardware pieces first, as I knew the coding bit of it would be relatively straightforward (just pushing 1s and 0s through to the segments based on switch inputs - an always_comb block). This proved to be the hardest step for me because I struggled to sift through the datasheet to understand exactly how things should be wired. 
+
+To verify that the design was behaving as expected, I simply used the switches to toggle through all 17 options. I had some problems with wiring in the exact correct way, so based off of this, I switched around some of the wiring to have the display be accurate. My debug method for the wires was mostly guess and check though, which would only be a reasonable approach for a project that is as small as this one. 
+
+The design meets all requirements. The 7-segment display light up according to bit switch inputs, and the LEDs on the side of the board also light up corresponding to and and xor gates. 
+
+I spent about 8 hours working on this lab. 
