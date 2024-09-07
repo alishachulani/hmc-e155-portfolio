@@ -1,0 +1,21 @@
+---
+title: "Week 2 Reflection"
+description: "Lab 1 Reflection"
+author: "Alisha Chulani"
+date: "9/6/24"
+categories:
+  - reflection
+draft: false
+---
+
+This week, we worked on Lab 1, where we soldered and assembled our boards and tested it by making LED sequences and powering a 7-segment display. 
+
+Some learnings I had for this week: 
+
+First, START EARLY! I wouldn't even say I started late persay, but I feel like I could have eased more stress just by alloting more time earlier to prep for the rest of the week. For example, I started soldering my board over the weekend, but did not anticipate how difficult I would find it and thus, how much time it would take. While I still had plenty of time to finish the lab, it would have been good for me to go in a little earlier to gauge. 
+
+Second, work with other people! Just having friends around me in the lab eased stress because we could struggle together. We could also bounce ideas off each other when things were going wrong, and overall just made the experience more enjoyable. It was also fun to achieve little bits of the lab when I had a friend to celebtrate little wins with. 
+
+Lastly, trust the process - the process of building block diagrams and really following the design process through actually helped a lot. At first, I thought I could skip some setup steps and side tutorials in the lab to save some time, but when I got confused later on it just ended up taking more time for me to hunt for answers. I think spreading the lab out would also help with this so I wouldn't feel so strapped for time and would be ok with going through each of the smaller steps. 
+
+Thanks for reading this reflection! Looking forward to next week!
