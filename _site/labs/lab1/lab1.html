@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alisha Chulani">
-<meta name="dcterms.date" content="2024-08-27">
+<meta name="dcterms.date" content="2024-09-04">
 
 <title>Lab 1 – E155 Portfolio</title>
 <style>
@@ -151,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 27, 2024</p>
+      <p class="date">September 4, 2024</p>
     </div>
   </div>
   
@@ -289,7 +289,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/alishachulani\.github\.io\/hmc-e155-portfolio\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
