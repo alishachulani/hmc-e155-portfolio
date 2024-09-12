@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alisha Chulani">
-<meta name="dcterms.date" content="2024-08-27">
+<meta name="dcterms.date" content="2024-09-12">
 
 <title>Lab 2 – E155 Portfolio</title>
 <style>
@@ -124,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#multiplexed-7-segment-display" id="toc-multiplexed-7-segment-display" class="nav-link active" data-scroll-target="#multiplexed-7-segment-display">Multiplexed 7-Segment Display</a></li>
   </ul>
-</nav>
+<div class="quarto-code-links"><h2>Code Links</h2><ul><li><a href="https://github.com/alishachulani/e155-lab2"><i class="bi bi-github"></i>Lab Repository</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -151,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 27, 2024</p>
+      <p class="date">September 12, 2024</p>
     </div>
   </div>
   
@@ -165,6 +165,39 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="multiplexed-7-segment-display" class="level2">
 <h2 class="anchored" data-anchor-id="multiplexed-7-segment-display">Multiplexed 7-Segment Display</h2>
+<p>The goals of this lab were to set up a two seven segment display, however, the catch was that we used time multiplexing to efficiently use the I/O on the FPGA. So, using one set of I/O FPGA pins and two transistors, the time multiplexing setup essentially allowed for power to be toggled back and forth on the two displays at a speed too fast to be processed by the human eye, thus appearing as two constant displays instead. In addition to the displays, a set of 5 LEDs also shows the sum of the two numbers being displayed. Schematics and a block diagram are shown below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images2/schematic.jpg" class="img-fluid figure-img"></p>
+<figcaption>Schematic of 7-segment display and LEDs with pins labeled</figcaption>
+</figure>
+</div>
+<p>To design the 7-bit display, I first looked at the datasheets to get acquainted with the 7-bit display we were provided with, as we shifted on to a double digit version which was different than the one being used last week. I needed to get acquainted with the hardware pieces first to fully think through the system at hand. I found that thinking through schematics and block diagrams to really visualize the hardware and signal flow was an important first step for a more complex lab like this one.</p>
+<p>The coding was more complex than last week, and required a thorough note-taking and scribbling thinking process to fully understand the set of inputs, outputs, and dependencies for the entire system. A block diagram is shown below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images2/blockdiagram.jpg" class="img-fluid figure-img"></p>
+<figcaption>Block diagram for Verilog of 7-segment display and LEDs with pins labeled</figcaption>
+</figure>
+</div>
+<p>There was a long debugging process throughout the entire lab work. First, there were plenty of syntax errors with my SystemVerilog that had to be addressed in order to even flash anything onto the FPGA. Most of this process had to do with addressing compile issues in Lattice Radiant itself. Then, even when code would flash, there were plenty of wiring issues to make sure the switches were arranged in a user-friendly way and that the correct segments were lighting up when needed. The debugging process for the segments of just pulling wires here and there did not work well this time, and it took some further datasheet inspection and fiddling to get this working correctly.</p>
+<p>The design meets all requirements. The two digit 7-segment display light up according to bit switch inputs, and the LEDs on the side of the board also light up corresponding to sums.</p>
+<p>As part of an excellence requirement, I inspected the datasheet further to find desired currents for the FPGA pins, then performed current limiting calculations to find a resistor value that would fit operating conditions.</p>
+<p>Current draw/sink on all FPGA pins are below the currents specified in the recommended operating conditions. Claims are backed up by calculations and reference to the appropriate items on the datasheet.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images2/calculations.jpg" class="img-fluid figure-img"></p>
+<figcaption>Calculations for resistor values</figcaption>
+</figure>
+</div>
+<p>Lastly, I wrote a testbench to simulate that the two digit 7 segment display was working correctly for excellence requirements.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images2/tb.jpg" class="img-fluid figure-img"></p>
+<figcaption>Wave forms for forced values</figcaption>
+</figure>
+</div>
+<p>I spent about 12 hours working on this lab.</p>
 
 
 </section>
