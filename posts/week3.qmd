@@ -1,0 +1,17 @@
+---
+title: "Week 2 Reflection"
+description: "Lab 1 Reflection"
+author: "Alisha Chulani"
+date: "9/13/24"
+categories:
+  - reflection
+draft: false
+---
+
+This week, we worked on Lab 2, where we programmed a 2-digit 7-segment display using multiplexing techniques. 
+
+I honestly thought this week's lab went way smoother for me. I am surprised honestly that I felt more confident for this lab and could feel my debugging and thinking skills improved from even just a week ago. I know that this will come crashing down next week during Lab 3, but it felt good to feel like I learned something and developed my skills already in such a short time. 
+
+I definitely implemented my learnings from last week which probably helped me feel better about this lab. I coordinated times with people to go in several days before the lab was due, and I sat down and thought through the entire lab and scribbled out notes before even touching hardware or software. This initial process was super helpful for me, and I think will be super helpful to do the same going into the next lab. 
+
+I am a little nervous going into next week becuase I have a busy weekend with tennis, clinic, and other things going on. I worry I won't be able to get ahead on this lab like I had hoped, but we will see how it goes! I have been enjoying the routine of going into the lab in the evenings and find myself getting lost in the work and losing track of time. Honeslty, I can't ask for much more - I'm enjoying the class and the learning process, and that's what counts. 
