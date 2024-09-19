@@ -1,10 +1,28 @@
 ---
 title: "Lab 3"
 author: "Alisha Chulani"
-date: "8/27/24"
+date: "9/19/24"
 categories:
   - labreport
 draft: false
 ---
 
 ## Keypad Scanner
+
+This lab was hard. I had a couple really long nights in the lab, so I have core schematics and diagrams here for now for the checkoff. I will have an in depth report for check off next week, but hoping I can get the functionality of my hardware checked off now so I can take apart my board and get started on Lab 4 ASAP while I update this report in parallel. 
+
+![Schematic of 4x4 keypad and 2 7-segment displays with pins labeled](images3/schematic.jpg)
+
+
+
+![Block diagram for Verilog of 4x4 keypad and 2 7-segment displays  with pins labeled](images3/blockdiagram.jpg)
+
+
+![FSM for state logic](images3/fsm.jpg)
+
+
+
+![Wave forms for forced values](images3/testbench.jpg)
+
+
+
