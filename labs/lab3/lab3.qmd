@@ -22,7 +22,7 @@ This lab was hard. I had a couple really long nights in the lab, so I have core 
 
 
 
-![Wave forms for forced values](images3/testbench.jpg)
+![Wave forms from testbench](images3/testbench.jpg)
 
 
 

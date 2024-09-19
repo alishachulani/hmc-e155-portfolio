@@ -28,6 +28,20 @@
     "text": "This week, we worked on Lab 1, where we soldered and assembled our boards and tested it by making LED sequences and powering a 7-segment display.\nSome learnings I had for this week:\nFirst, START EARLY! I wouldn’t even say I started late persay, but I feel like I could have eased more stress just by alloting more time earlier to prep for the rest of the week. For example, I started soldering my board over the weekend, but did not anticipate how difficult I would find it and thus, how much time it would take. While I still had plenty of time to finish the lab, it would have been good for me to go in a little earlier to gauge.\nSecond, work with other people! Just having friends around me in the lab eased stress because we could struggle together. We could also bounce ideas off each other when things were going wrong, and overall just made the experience more enjoyable. It was also fun to achieve little bits of the lab when I had a friend to celebtrate little wins with.\nLastly, trust the process - the process of building block diagrams and really following the design process through actually helped a lot. At first, I thought I could skip some setup steps and side tutorials in the lab to save some time, but when I got confused later on it just ended up taking more time for me to hunt for answers. I think spreading the lab out would also help with this so I wouldn’t feel so strapped for time and would be ok with going through each of the smaller steps.\nThanks for reading this reflection! Looking forward to next week!"
   },
   {
+    "objectID": "labs/lab3/lab3.html",
+    "href": "labs/lab3/lab3.html",
+    "title": "Lab 3",
+    "section": "",
+    "text": "This lab was hard. I had a couple really long nights in the lab, so I have core schematics and diagrams here for now for the checkoff. I will have an in depth report for check off next week, but hoping I can get the functionality of my hardware checked off now so I can take apart my board and get started on Lab 4 ASAP while I update this report in parallel.\n\n\n\nSchematic of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nBlock diagram for Verilog of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nFSM for state logic\n\n\n\n\n\nWave forms for forced values"
+  },
+  {
+    "objectID": "labs/lab3/lab3.html#keypad-scanner",
+    "href": "labs/lab3/lab3.html#keypad-scanner",
+    "title": "Lab 3",
+    "section": "",
+    "text": "This lab was hard. I had a couple really long nights in the lab, so I have core schematics and diagrams here for now for the checkoff. I will have an in depth report for check off next week, but hoping I can get the functionality of my hardware checked off now so I can take apart my board and get started on Lab 4 ASAP while I update this report in parallel.\n\n\n\nSchematic of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nBlock diagram for Verilog of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nFSM for state logic\n\n\n\n\n\nWave forms for forced values"
+  },
+  {
     "objectID": "labs/lab1/lab1.html",
     "href": "labs/lab1/lab1.html",
     "title": "Lab 1",
@@ -68,19 +82,5 @@
     "title": "E155 Blog",
     "section": "",
     "text": "Lab 3\n\n\n\n\n\n\n\n\n\n\n\nSep 19, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 2\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 1\n\n\n\n\n\n\n\n\n\n\n\nSep 4, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 6\n\n\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 7\n\n\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 5\n\n\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\n\n\n\n\n\n\nLab 4\n\n\n\n\n\n\n\n\n\n\n\nAug 27, 2024\n\n\nAlisha Chulani\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "labs/lab3/lab3.html",
-    "href": "labs/lab3/lab3.html",
-    "title": "Lab 3",
-    "section": "",
-    "text": "This lab was hard. I had a couple really long nights in the lab, so I have core schematics and diagrams here for now for the checkoff. I will have an in depth report for check off next week, but hoping I can get the functionality of my hardware checked off now so I can take apart my board and get started on Lab 4 ASAP while I update this report in parallel.\n\n\n\nSchematic of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nBlock diagram for Verilog of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nFSM for state logic\n\n\n\n\n\nWave forms for forced values"
-  },
-  {
-    "objectID": "labs/lab3/lab3.html#keypad-scanner",
-    "href": "labs/lab3/lab3.html#keypad-scanner",
-    "title": "Lab 3",
-    "section": "",
-    "text": "This lab was hard. I had a couple really long nights in the lab, so I have core schematics and diagrams here for now for the checkoff. I will have an in depth report for check off next week, but hoping I can get the functionality of my hardware checked off now so I can take apart my board and get started on Lab 4 ASAP while I update this report in parallel.\n\n\n\nSchematic of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nBlock diagram for Verilog of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nFSM for state logic\n\n\n\n\n\nWave forms for forced values"
   }
 ]
