@@ -1,0 +1,23 @@
+---
+title: "Week 3 Reflection"
+description: "Lab 3 Reflection"
+author: "Alisha Chulani"
+date: "9/20/24"
+categories:
+  - reflection
+draft: false
+---
+
+This week, we worked on Lab 3, where we programmed a keypad to display numbers on a double 7-segment display (same display as last week). 
+
+This week's lab was pretty up and down for me. There were times where I was super confuident in what I was doing and felt like I had a solid grip on the concepts, and other times where I felt like nothing in the lab made any sense and I felt so lost and overwhelmed on how to address certain issues. 
+
+However, this was a lesson of patience and debugging for me. I actually felt pretty confident as I was getting the implementation set up - once I had a general understanding of the lab and had completed a thorough planning phase with block diagrams and schematics, the SystemVerilog writing and simulating went relatively smoothly. There were, of course, debugging stages that needed to occur since obviously everything wasn't perfect the first time, but these were expected and I was able to overcome them with normal effort. 
+
+Similarly, switching over my design to hardware was also somewhat painless. Some debugging needed here and there, but all expected and at a normal amount. 
+
+The problem hit after the Thursday checkoff - there was a bug that I was not aware of that was uncovered during the checkoff that threw me for a loop for the rest of the weekend. It seemed to me that it was relatively minor, and I though I had a good handle on how to fix it until I tried to do so and could not figure out the optimal position to add in the conditional. For a bug that that seemed so minor to the user took me longer than I would like to admit to fix, and it was also frustrating to me because even after fixing the bug, it didn't feel like there was such a huge payoff as if I had implemented something brand new. 
+
+I did learn a few things about my debugging style however which was a good outcome of this whole process. First, I realized the importance of taking breaks. When I was racking my brain for too long at a time, I got easily frustrated and then could not think clearly. Taking a break to get out of the lab and get some fresh air, or doing some other work to excersize some other muscles in my brain would then help me come back to the debugging process with some fresh perspective. Also, talking it out with classmates and TAs was super helpful also. They were able to give me some new ideas and fresh looks at my design which ultimately helped me be more creative with my solution. 
+
+Overall, while I did not enjoy this lab (lol) I do appreciate the fact that I was able to do it and feel proud of myself for sticking it out through the weekend rather than just giving up and leaving the lab as is. 

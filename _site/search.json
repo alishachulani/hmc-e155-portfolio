@@ -32,14 +32,14 @@
     "href": "labs/lab3/lab3.html",
     "title": "Lab 3",
     "section": "",
-    "text": "This lab was hard. I had a couple really long nights in the lab, so I have core schematics and diagrams here for now for the checkoff. I will have an in depth report for check off next week, but hoping I can get the functionality of my hardware checked off now so I can take apart my board and get started on Lab 4 ASAP while I update this report in parallel.\n\n\n\nSchematic of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nBlock diagram for Verilog of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nFSM for state logic\n\n\n\n\n\nWave forms for forced values"
+    "text": "This lab was hard. I had a couple really long nights in the lab, so I have core schematics and diagrams here for now for the checkoff. I will have an in depth report for check off next week, but hoping I can get the functionality of my hardware checked off now so I can take apart my board and get started on Lab 4 ASAP while I update this report in parallel.\n\n\n\nSchematic of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nBlock diagram for Verilog of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nFSM for state logic\n\n\n\n\n\nWave forms from testbench"
   },
   {
     "objectID": "labs/lab3/lab3.html#keypad-scanner",
     "href": "labs/lab3/lab3.html#keypad-scanner",
     "title": "Lab 3",
     "section": "",
-    "text": "This lab was hard. I had a couple really long nights in the lab, so I have core schematics and diagrams here for now for the checkoff. I will have an in depth report for check off next week, but hoping I can get the functionality of my hardware checked off now so I can take apart my board and get started on Lab 4 ASAP while I update this report in parallel.\n\n\n\nSchematic of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nBlock diagram for Verilog of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nFSM for state logic\n\n\n\n\n\nWave forms for forced values"
+    "text": "This lab was hard. I had a couple really long nights in the lab, so I have core schematics and diagrams here for now for the checkoff. I will have an in depth report for check off next week, but hoping I can get the functionality of my hardware checked off now so I can take apart my board and get started on Lab 4 ASAP while I update this report in parallel.\n\n\n\nSchematic of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nBlock diagram for Verilog of 4x4 keypad and 2 7-segment displays with pins labeled\n\n\n\n\n\nFSM for state logic\n\n\n\n\n\nWave forms from testbench"
   },
   {
     "objectID": "labs/lab1/lab1.html",
