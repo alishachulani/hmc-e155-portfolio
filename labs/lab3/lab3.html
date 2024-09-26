@@ -167,6 +167,12 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="keypad-scanner">Keypad Scanner</h2>
 <p>For Lab 3, we used an FPGA to scan inputs from a keypad and display outputs sequentially on a double 7-segment dispplay. There were lots of little caveats to the design that accounted for weird button pressing on the part of the user. A key part of this lab was that each key should only register once, regardless for how long it was pressed and if another button was pressed at the same time. These two things affected the way I designed my lab greatly, because we had to account for many different situations in a clever way.</p>
 <p>This lab took a lot of pre-thinking and planning in order to fully understand the complexities of what we were tasked to do. In order to start the lab, I started by making an Finite State Machine to understand the flow of the design and what would occur in each state of the design.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images3/fsm.jpg" class="img-fluid figure-img"></p>
+<figcaption>FSM for state logic</figcaption>
+</figure>
+</div>
 <p>To handle switch debouncing, I initialized counters in State 8 that would increment depending on if the button was pressed/unpressed on the clock cycle. If the counterOn fills up first, then the design will transition forward to actually displaying digits, however, if counterOn fills up first, the the deisgn will reset back to State 0 beacuse the design notices that a button is no longer pressed. This was the most logical way I could think of to ensure that debouncing would not throw off the entire design, and works because it allows for this to be contained in one state. I chose to implement it in the software rather than doing hardware switch debouncing (with a RC-circuit) because I thought that the discharging of the capacitor as a debouncing counter would not be as reliable.</p>
 <p>Final schematics and block diagrams of the Verilog are shown below.</p>
 <div class="quarto-figure quarto-figure-center">
