@@ -122,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#fpga-and-mcu-setup-and-testing" id="toc-fpga-and-mcu-setup-and-testing" class="nav-link active" data-scroll-target="#fpga-and-mcu-setup-and-testing">FPGA and MCU Setup and Testing</a></li>
+  <li><a href="#interrupts" id="toc-interrupts" class="nav-link active" data-scroll-target="#interrupts">Interrupts</a></li>
   </ul>
 <div class="quarto-code-links"><h2>Code Links</h2><ul><li><a href="https://github.com/alishachulani/e155-lab5"><i class="bi bi-github"></i>Lab Repository</a></li></ul></div></nav>
     </div>
@@ -163,8 +163,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="fpga-and-mcu-setup-and-testing" class="level2">
-<h2 class="anchored" data-anchor-id="fpga-and-mcu-setup-and-testing">FPGA and MCU Setup and Testing</h2>
+<section id="interrupts" class="level2">
+<h2 class="anchored" data-anchor-id="interrupts">Interrupts</h2>
 <p>For Lab 5, we were tasked with using interrupts to measure the speed of a motor from quadrature encoder readings. By reading quarature encoder pulses using the MCU, we can then process these pulses and the difference between them using interrupts to cacluate and display the speed of the motor in RPM.</p>
 <p>I used pins A6 and A9 to read the quadrature encoder pulses as both of these pins were 5V tolerant. The motor was powered by an external power supply. The figure below shows a schematic of the hardware setup.</p>
 <div class="quarto-figure quarto-figure-center">
