@@ -48,8 +48,7 @@ However, debugging towards the final stages was where I ran into a lot of proble
 
 Ultimately, I learned a lot from this lab both about handling very complex projects and also about my debugging style. 
 
-
-
+I spent about 20 hours on this lab 
 
 
 
