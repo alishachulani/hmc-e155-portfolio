@@ -13,7 +13,7 @@ format:
         icon: github
 ---
 
-## FPGA and MCU Setup and Testing
+## Interrupts
 
 For Lab 5, we were tasked with using interrupts to measure the speed of a motor from quadrature encoder readings. By reading quarature encoder pulses using the MCU, we can then process these pulses and the difference between them using interrupts to cacluate and display the speed of the motor in RPM. 
 
