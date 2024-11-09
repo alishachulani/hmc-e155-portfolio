@@ -1,10 +1,25 @@
 ---
 title: "Lab 7"
 author: "Alisha Chulani"
-date: "8/27/24"
+date: "11/9/24"
 categories:
   - labreport
 draft: false
+format:
+  html:
+    code-links:
+      - text: "Lab Repository"
+        href: https://github.com/alishachulani/e155-lab6
+        icon: github
 ---
 
 ## The Advanced Encryption Standard
+
+
+![LED Working](images/light.jpg)
+
+![Full SPI Transation](images/fullSPI.jpg)
+
+![First SPI transation of 39](images/spi39.jpg)
+
+![Second SPI transation of 25](images/spi25.jpg)
