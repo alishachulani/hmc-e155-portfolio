@@ -9,17 +9,32 @@ format:
   html:
     code-links:
       - text: "Lab Repository"
-        href: https://github.com/alishachulani/e155-lab6
+        href: https://github.com/alishachulani/e155-lab7/tree/main
         icon: github
 ---
 
 ## The Advanced Encryption Standard
 
+The goal for Lab 7 was to perform 128-bit AES (Advanced Encryption Standard) encryption on hardware to send a plaintext message and key from the MCU to the FPGA accelerator and recieve back correct cyphertext. 
+
+The MCU code was provided to send a key and plaintext message over SPI to the FPGA and check that the result is correct, so there was no coding in C that needed to be done for this lab. We were concerned with the AES implementation on the FPGA, which included developing our FSM and the many submodules needed for complete encryption. The block diagram for my FPGA code is included below. 
+
+For this lab, I met both proficiency (which invovled getting testbenches to pass in simulation) and excellence (which involved getting FPGA code to actually fit on hardware). I was able to meet excellence specs, as seen in the image below which shows the LED A9 on to indicate a correct cyphertext output.  
 
 ![LED Working](images/light.jpg)
 
+This means that we would be able to visualize the SPI transactions occuring between the MCU and the FPGA on the logic analyzer. The image below shows the entire 128-bit transaction: the first chunk of signals includes the transmission of the key and plaintext, while the second chunk of signals includes the transmission of the cyphertext. 
+
 ![Full SPI Transation](images/fullSPI.jpg)
+
+The following images show the specific transactions of the first two bytes of the cyphertext being transmitted accurately. The first byte of the cyphertext is 39 as detailed on page 35 of the AES spec sheet, which is correctly reflected on the logic analyzer shown below. 
 
 ![First SPI transation of 39](images/spi39.jpg)
 
+The second byte of the cyphertext is 25, and we can see this also ouputted correctly on the logic analyzer below. 
+
 ![Second SPI transation of 25](images/spi25.jpg)
+
+The debugging process for this lab felt familiar in the beginning when implementing in simulation, but less so once moving into hardware. I felt that the use of waveforms and testbenches was a return to comfortable debugging, which was much welcomed. However, debugging the hardware felt oftentimes pointless because there were less familiar tools to use especially when trying to spot if the issue was with my FPGA code or somewhere else. Ultimately, I used a mix of the Segger debugger tools and investigating Lattice's cryptic warning messages to try out different things to get it to work in hardware. The final stages of debugging to reach excellency were ultimately long and painful because of my unfamiliarity with FGPA-MCU interactions, but it was rewarding to finally get the lab to work. 
+
+This lab took me 24 hours to complete. 
